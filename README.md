@@ -38,6 +38,8 @@ function MyComponent() {
       currentPage={currentPage}
       onPaginate={handlePaginate}
       totalPage={totalPage}
+      batchSize={4} // default 4
+      enableFirstPage={true} // default true
     />
   );
 }
@@ -61,8 +63,8 @@ module.exports = {
   // ... other Tailwind configuration options
   theme: {
     extend: {
-      backgroundColor: {
-        'success': '#0070f3',
+      colors: {
+        success: '#AAF714',
       },
     },
   },
