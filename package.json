@@ -7,6 +7,7 @@
     "url": "https://github.com/devrashed01/react-pagination-v3"
   },
   "main": "index.js",
+  "types": "./types/index.d.ts",
   "keywords": [
     "react",
     "next",
